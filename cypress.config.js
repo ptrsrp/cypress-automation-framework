@@ -8,4 +8,9 @@ module.exports = defineConfig({
     },
     specPattern: "cypress/integration/"
   },
+  //hide XHR
+  env: {
+    hideXhr: true
+  }
+  //video: true,
 });
